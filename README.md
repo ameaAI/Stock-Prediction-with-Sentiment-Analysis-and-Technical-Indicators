@@ -22,13 +22,9 @@ This project builds a stock prediction system using real-time financial news sen
    git clone https://github.com/ameaAI/Stock-Prediction-with-Sentiment-Analysis-and-Technical-Indicators.git
 Install the required Python dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt
 Set up AWS credentials using AWS CLI:
 
-bash
-Copy code
 aws configure
 Workflow
 1. Data Collection
@@ -49,8 +45,6 @@ SageMaker Autopilot: Automates machine learning model selection, training, and t
 Example Output
 The following sample data is used for predictions:
 
-plaintext
-Copy code
 Date: 2024-11-29
 Title: Amazon Rises 10.4% Since Q3 Earnings: Time to Buy the Stock?
 Sentiment: Bullish (Score: 0.498544)
